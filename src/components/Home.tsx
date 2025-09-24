@@ -162,7 +162,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Before */}
             <div className="relative group">
-              <div className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded-lg font-semibold z-10">
+              <div className="absolute top-4 left-4 bg-stone-700 text-white px-4 py-2 rounded-lg font-semibold z-10">
                 BEFORE
               </div>
               <img 
@@ -175,7 +175,7 @@ export default function Home() {
 
             {/* After */}
             <div className="relative group">
-              <div className="absolute top-4 left-4 bg-green-500 text-white px-4 py-2 rounded-lg font-semibold z-10">
+              <div className="absolute top-4 left-4 bg-orange-700 text-white px-4 py-2 rounded-lg font-semibold z-10">
                 AFTER
               </div>
               <img 

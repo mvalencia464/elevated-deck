@@ -126,17 +126,17 @@ export default function WhyUs() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Licensing & Insurance */}
               <div className="bg-white rounded-xl shadow-lg p-6 border border-stone-200">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="h-8 w-8 text-blue-600" />
+                <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-orange-700" />
                 </div>
                 <h3 className="text-xl font-bold text-stone-800 mb-3 text-center">Fully Licensed & Insured</h3>
                 <p className="text-stone-600 text-center mb-4">
                   State licensed contractor with $2M liability insurance. Your project is protected from day one.
                 </p>
-                <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-                  <p className="text-green-800 text-sm font-medium">✓ State Contractor License #123456</p>
-                  <p className="text-green-800 text-sm font-medium">✓ $2M General Liability Insurance</p>
-                  <p className="text-green-800 text-sm font-medium">✓ Worker's Compensation Coverage</p>
+                <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
+                  <p className="text-orange-800 text-sm font-medium">✓ State Contractor License #123456</p>
+                  <p className="text-orange-800 text-sm font-medium">✓ $2M General Liability Insurance</p>
+                  <p className="text-orange-800 text-sm font-medium">✓ Worker's Compensation Coverage</p>
                 </div>
               </div>
 
@@ -158,74 +158,74 @@ export default function WhyUs() {
 
               {/* Quality Materials */}
               <div className="bg-white rounded-xl shadow-lg p-6 border border-stone-200">
-                <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Hammer className="h-8 w-8 text-green-600" />
+                <div className="bg-stone-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Hammer className="h-8 w-8 text-stone-700" />
                 </div>
                 <h3 className="text-xl font-bold text-stone-800 mb-3 text-center">Premium Materials Only</h3>
                 <p className="text-stone-600 text-center mb-4">
                   We partner with industry leaders to ensure your deck lasts decades, not years.
                 </p>
-                <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-                  <p className="text-green-800 text-sm font-medium">✓ Premium Pressure-Treated Lumber</p>
-                  <p className="text-green-800 text-sm font-medium">✓ Stainless Steel Hardware</p>
-                  <p className="text-green-800 text-sm font-medium">✓ Weather-Resistant Finishes</p>
+                <div className="bg-stone-50 border border-stone-200 rounded-lg p-3">
+                  <p className="text-stone-800 text-sm font-medium">✓ Premium Pressure-Treated Lumber</p>
+                  <p className="text-stone-800 text-sm font-medium">✓ Stainless Steel Hardware</p>
+                  <p className="text-stone-800 text-sm font-medium">✓ Weather-Resistant Finishes</p>
                 </div>
               </div>
 
               {/* Customer Service */}
               <div className="bg-white rounded-xl shadow-lg p-6 border border-stone-200">
-                <div className="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-8 w-8 text-purple-600" />
+                <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-8 w-8 text-orange-700" />
                 </div>
                 <h3 className="text-xl font-bold text-stone-800 mb-3 text-center">White-Glove Service</h3>
                 <p className="text-stone-600 text-center mb-4">
                   From first call to final walkthrough, we treat your property like our own family's home.
                 </p>
-                <div className="bg-purple-50 border border-purple-200 rounded-lg p-3">
-                  <p className="text-purple-800 text-sm font-medium">✓ Daily Progress Updates</p>
-                  <p className="text-purple-800 text-sm font-medium">✓ Clean Job Site Daily</p>
-                  <p className="text-purple-800 text-sm font-medium">✓ Direct Access to Project Manager</p>
+                <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
+                  <p className="text-orange-800 text-sm font-medium">✓ Daily Progress Updates</p>
+                  <p className="text-orange-800 text-sm font-medium">✓ Clean Job Site Daily</p>
+                  <p className="text-orange-800 text-sm font-medium">✓ Direct Access to Project Manager</p>
                 </div>
               </div>
 
               {/* Speed & Efficiency */}
               <div className="bg-white rounded-xl shadow-lg p-6 border border-stone-200">
-                <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="h-8 w-8 text-red-600" />
+                <div className="bg-stone-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="h-8 w-8 text-stone-700" />
                 </div>
                 <h3 className="text-xl font-bold text-stone-800 mb-3 text-center">14-Day Completion</h3>
                 <p className="text-stone-600 text-center mb-4">
                   Our streamlined process means your deck is ready for summer entertaining in just 2 weeks.
                 </p>
-                <div className="bg-red-50 border border-red-200 rounded-lg p-3">
-                  <p className="text-red-800 text-sm font-medium">✓ Detailed Project Timeline</p>
-                  <p className="text-red-800 text-sm font-medium">✓ Weather Contingency Plans</p>
-                  <p className="text-red-800 text-sm font-medium">✓ On-Time Completion Guarantee</p>
+                <div className="bg-stone-50 border border-stone-200 rounded-lg p-3">
+                  <p className="text-stone-800 text-sm font-medium">✓ Detailed Project Timeline</p>
+                  <p className="text-stone-800 text-sm font-medium">✓ Weather Contingency Plans</p>
+                  <p className="text-stone-800 text-sm font-medium">✓ On-Time Completion Guarantee</p>
                 </div>
               </div>
 
               {/* Warranty */}
               <div className="bg-white rounded-xl shadow-lg p-6 border border-stone-200">
-                <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Star className="h-8 w-8 text-yellow-600" />
+                <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Star className="h-8 w-8 text-orange-700" />
                 </div>
                 <h3 className="text-xl font-bold text-stone-800 mb-3 text-center">10-Year Warranty</h3>
                 <p className="text-stone-600 text-center mb-4">
                   We stand behind our work with the industry's best warranty. Your investment is protected.
                 </p>
-                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-                  <p className="text-yellow-800 text-sm font-medium">✓ 10-Year Structural Warranty</p>
-                  <p className="text-yellow-800 text-sm font-medium">✓ 5-Year Materials Warranty</p>
-                  <p className="text-yellow-800 text-sm font-medium">✓ 1-Year Finish Warranty</p>
+                <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
+                  <p className="text-orange-800 text-sm font-medium">✓ 10-Year Structural Warranty</p>
+                  <p className="text-orange-800 text-sm font-medium">✓ 5-Year Materials Warranty</p>
+                  <p className="text-orange-800 text-sm font-medium">✓ 1-Year Finish Warranty</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* ROI Section */}
-          <div className="mb-16 bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8">
+          <div className="mb-16 bg-gradient-to-r from-orange-50 to-stone-50 rounded-2xl p-8">
             <div className="text-center mb-8">
-              <TrendingUp className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <TrendingUp className="h-12 w-12 text-orange-700 mx-auto mb-4" />
               <h2 className="text-3xl md:text-4xl font-bold text-stone-800 mb-4">
                 Your Deck Investment Pays for Itself
               </h2>
@@ -236,17 +236,17 @@ export default function WhyUs() {
             
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white rounded-xl p-6 shadow-lg text-center">
-                <DollarSign className="h-8 w-8 text-green-600 mx-auto mb-3" />
+                <DollarSign className="h-8 w-8 text-orange-700 mx-auto mb-3" />
                 <h3 className="text-xl font-bold text-stone-800 mb-2">85% ROI</h3>
                 <p className="text-stone-600">Average return on investment for professional deck construction</p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-lg text-center">
-                <Home className="h-8 w-8 text-green-600 mx-auto mb-3" />
+                <Home className="h-8 w-8 text-orange-700 mx-auto mb-3" />
                 <h3 className="text-xl font-bold text-stone-800 mb-2">$25K+ Value</h3>
                 <p className="text-stone-600">Average home value increase from our deck installations</p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-lg text-center">
-                <Clock className="h-8 w-8 text-green-600 mx-auto mb-3" />
+                <Clock className="h-8 w-8 text-orange-700 mx-auto mb-3" />
                 <h3 className="text-xl font-bold text-stone-800 mb-2">30+ Years</h3>
                 <p className="text-stone-600">Lifespan of our professionally built decks with proper maintenance</p>
               </div>
@@ -271,7 +271,7 @@ export default function WhyUs() {
                     <p className="font-semibold text-stone-800">Sarah Thompson</p>
                     <div className="flex">
                       {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="h-4 w-4 text-yellow-500 fill-current" />
+                        <Star key={i} className="h-4 w-4 text-orange-600 fill-current" />
                       ))}
                     </div>
                   </div>
@@ -292,7 +292,7 @@ export default function WhyUs() {
                     <p className="font-semibold text-stone-800">Mike Chen</p>
                     <div className="flex">
                       {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="h-4 w-4 text-yellow-500 fill-current" />
+                        <Star key={i} className="h-4 w-4 text-orange-600 fill-current" />
                       ))}
                     </div>
                   </div>
