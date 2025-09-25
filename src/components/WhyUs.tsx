@@ -49,6 +49,7 @@ export default function WhyUs() {
               />
             </Link>
             <div className="flex items-center space-x-6">
+              <Link to="/#projects" className="text-stone-700 hover:text-orange-700 transition-colors font-medium">Gallery</Link>
               <Link to="/" className="flex items-center space-x-2 text-stone-700 hover:text-orange-700 transition-colors">
                 <ArrowLeft className="h-4 w-4" />
                 <span className="font-medium">Back to Home</span>

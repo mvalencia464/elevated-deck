@@ -53,10 +53,10 @@ export default function Home() {
               />
             </div>
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#gallery" className={`transition-colors font-medium ${
+              <a href="#projects" className={`transition-colors font-medium ${
                 isScrolled ? 'text-stone-700 hover:text-orange-700' : 'text-white/90 hover:text-white'
               }`}>Gallery</a>
-              <a href="#process" className={`transition-colors font-medium ${
+              <a href="#gallery" className={`transition-colors font-medium ${
                 isScrolled ? 'text-stone-700 hover:text-orange-700' : 'text-white/90 hover:text-white'
               }`}>Process</a>
               <Link to="/why-us" className={`transition-colors font-medium ${
@@ -124,10 +124,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-              From Initial Sketch to Dream Deck Reality
+              The 2-Week Transformation That Changes Everything
             </h2>
             <p className="text-xl text-stone-300 max-w-2xl mx-auto">
-              See our complete design and build process - from the first conceptual sketch to your finished outdoor paradise.
+              Watch this family go from hiding their backyard to hosting every neighborhood BBQ.
             </p>
           </div>
 
@@ -136,8 +136,8 @@ export default function Home() {
               {!showVideo ? (
                 <div className="relative">
                   <img 
-                    src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4cd71b7ba3451bba99e07.webp" 
-                    alt="Initial deck design sketch preview"
+                    src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d2d3eeee4bdc822af1836b.webp" 
+                    alt="Deck transformation preview"
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
@@ -148,22 +148,169 @@ export default function Home() {
                       <Play className="h-12 w-12 ml-1" />
                     </button>
                   </div>
-                  <div className="absolute top-4 right-4 bg-orange-700 text-white px-3 py-1 rounded-lg text-sm font-semibold">
-                    Watch Our Process
-                  </div>
                 </div>
               ) : (
                 <video 
                   controls 
                   autoPlay 
                   className="w-full h-96 object-cover"
-                  poster="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4cd71b7ba3451bba99e07.webp"
+                  poster="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d2d3eeee4bdc822af1836b.webp"
                 >
-                  <source src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4cd112c411b2365d4cf76.mp4" type="video/mp4" />
+                  <source src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d2d3c0e6849c3d8aa2adfb.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               )}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Past Projects Gallery */}
+      <section id="projects" className="py-16 bg-gradient-to-br from-stone-50 to-orange-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-bold text-stone-800 mb-4">
+              Our Recent Deck Projects
+            </h2>
+            <p className="text-xl text-stone-600 max-w-2xl mx-auto">
+              See the quality craftsmanship and stunning results from our recent deck construction projects across the area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
+            {/* Randomized project images */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d306ee89a7e290287256.webp" 
+                alt="Beautiful deck construction project"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d3062b5a2b6717c62473.webp" 
+                alt="Premium deck with beautiful railings"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d306b7ba343182aa2bf5.webp" 
+                alt="Spacious multi-level deck design"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d25235480d6977fda0b1.webp" 
+                alt="Custom deck with integrated features"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d3062c411b9c74d566fb.webp" 
+                alt="Professional deck construction"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d306ee89a78a33287250.webp" 
+                alt="Elegant deck with modern design"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d30635480d1583fdb343.webp" 
+                alt="Luxury outdoor living space"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d2522b5a2baa82c6141e.webp" 
+                alt="Quality craftsmanship deck project"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d306ee89a75381287254.webp" 
+                alt="Beautiful deck with premium materials"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d3062c411b0a01d566fd.webp" 
+                alt="Stunning deck transformation"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d306b7ba348094aa2bf4.webp" 
+                alt="Expert deck construction work"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4d3062c411b866fd566fc.webp" 
+                alt="Custom outdoor deck design"
+                className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <div className="text-3xl font-bold text-orange-700 mb-2">500+</div>
+                <p className="text-stone-600 font-medium">Completed Projects</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <div className="text-3xl font-bold text-orange-700 mb-2">15+</div>
+                <p className="text-stone-600 font-medium">Years Experience</p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg">
+                <div className="text-3xl font-bold text-orange-700 mb-2">100%</div>
+                <p className="text-stone-600 font-medium">Customer Satisfaction</p>
+              </div>
+            </div>
+            
+            <button 
+              onClick={() => setShowContactForm(true)}
+              className="bg-orange-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-800 transition-colors inline-flex items-center space-x-2"
+            >
+              <span>Start My Deck Project</span>
+              <ArrowRight className="h-5 w-5" />
+            </button>
           </div>
         </div>
       </section>
@@ -173,44 +320,38 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-stone-800 mb-4">
-              From Concept Sketch to Stunning Reality
+              The Transformation That Made This Family Fall in Love with Their Backyard Again
             </h2>
-            <p className="text-xl text-stone-600 max-w-3xl mx-auto">
-              This is how our professional design process works - we start with detailed sketches to visualize your dream deck, then bring it to life with expert craftsmanship and premium materials.
+            <p className="text-xl text-stone-600 max-w-2xl mx-auto">
+              "We went from never using our backyard to hosting every family gathering. Our kids finally have a safe place to play, and our home value increased by $25,000!" - The Johnson Family
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            {/* Before - Initial Sketch */}
+            {/* Before */}
             <div className="relative group">
               <div className="absolute top-4 left-4 bg-stone-700 text-white px-4 py-2 rounded-lg font-semibold z-10">
-                INITIAL SKETCH
+                BEFORE
               </div>
               <img 
-                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4cd71b7ba3451bba99e07.webp" 
-                alt="Professional deck design sketch and planning phase"
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d2d3fb26b7f76ccf593674.png" 
+                alt="Old deck before renovation"
                 className="w-full h-96 object-cover rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300"
               />
               <div className="absolute inset-0 bg-black/20 rounded-xl group-hover:bg-black/10 transition-all duration-300"></div>
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg">
-                <p className="text-stone-800 font-medium text-sm">Professional Design Phase</p>
-              </div>
             </div>
 
-            {/* After - Finished Project */}
+            {/* After */}
             <div className="relative group">
               <div className="absolute top-4 left-4 bg-orange-700 text-white px-4 py-2 rounded-lg font-semibold z-10">
-                FINISHED PROJECT
+                AFTER
               </div>
               <img 
-                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d4cd71ee89a7e19327ee20.webp" 
-                alt="Beautiful completed deck construction project"
+                src="https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/68d2d3eeee4bdc822af1836b.webp" 
+                alt="Beautiful new deck after construction"
                 className="w-full h-96 object-cover rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent rounded-xl"></div>
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg">
-                <p className="text-stone-800 font-medium text-sm">Premium Construction Reality</p>
-              </div>
             </div>
           </div>
 
@@ -219,12 +360,9 @@ export default function Home() {
               onClick={() => setShowContactForm(true)}
               className="bg-stone-800 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-stone-700 transition-colors inline-flex items-center space-x-2"
             >
-              <span>Get My Free Design Sketch & Quote</span>
+              <span>Get My Free Deck Transformation Quote</span>
               <ArrowRight className="h-5 w-5" />
             </button>
-            <p className="text-stone-600 text-sm mt-3">
-              See your deck designed professionally before we build it
-            </p>
           </div>
         </div>
       </section>
@@ -292,10 +430,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-stone-800 mb-4">
-              From Initial Sketch to Dream Deck in Just 14 Days
+              From Embarrassing to Amazing in Just 14 Days
             </h2>
             <p className="text-xl text-stone-600 max-w-2xl mx-auto">
-              Our proven design-and-build process has created 500+ beautiful decks. Here's exactly how we'll bring your vision to life:
+              Our proven 4-step process has transformed 500+ backyards. Here's exactly how we'll transform yours:
             </p>
           </div>
 
@@ -305,8 +443,8 @@ export default function Home() {
                 1
               </div>
               <Users className="h-8 w-8 text-orange-700 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-stone-800 mb-2">Free Consultation & Initial Sketch</h3>
-              <p className="text-stone-600">We visit your property, assess your needs, and create the first conceptual sketch of your dream deck (Day 1)</p>
+              <h3 className="text-xl font-semibold text-stone-800 mb-2">Free Safety Inspection</h3>
+              <p className="text-stone-600">We identify safety issues and show you exactly what your dream deck will look like (Day 1)</p>
             </div>
 
             <div className="text-center">
